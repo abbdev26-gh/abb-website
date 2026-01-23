@@ -1,0 +1,16 @@
+{
+  "id": 3,
+  "documentId": "ctxf440d5fp13ct36lhmh84c",
+  "name": "Tema Branch",
+  "city": "Tema",
+  "address": "Paa Grant St. Community 10, Tema. GPS: GT-123-9133",
+  "fullAddress": "Paa Grant St. Community 10, Tema.\nGPS: GT-123-9133",
+  "email": "info@africabusinessbureau.com",
+  "phone": "",
+  "hours": "Mon - Friday: 8:00am - 4pm",
+  "slug": "tema-branch",
+  "mapUrl": null,
+  "createdAt": "2025-12-19T11:05:15.996Z",
+  "updatedAt": "2025-12-19T15:11:59.807Z",
+  "publishedAt": "2025-12-19T15:11:59.821Z"
+}

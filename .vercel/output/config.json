@@ -1,0 +1,297 @@
+{
+  "version": 3,
+  "overrides": {},
+  "routes": [
+    {
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      },
+      "src": "/_nuxt/builds/meta/(.*)"
+    },
+    {
+      "headers": {
+        "cache-control": "public, max-age=1, immutable"
+      },
+      "src": "/_nuxt/builds/(.*)"
+    },
+    {
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      },
+      "src": "/_fonts/(.*)"
+    },
+    {
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      },
+      "src": "/_nuxt/(.*)"
+    },
+    {
+      "src": "/_nuxt/builds/meta(.*)",
+      "headers": {
+        "cache-control": "public,max-age=31536000,immutable"
+      },
+      "continue": true
+    },
+    {
+      "src": "/_nuxt/builds(.*)",
+      "headers": {
+        "cache-control": "public,max-age=31536000,immutable"
+      },
+      "continue": true
+    },
+    {
+      "src": "/_fonts(.*)",
+      "headers": {
+        "cache-control": "public,max-age=31536000,immutable"
+      },
+      "continue": true
+    },
+    {
+      "src": "/_nuxt(.*)",
+      "headers": {
+        "cache-control": "public,max-age=31536000,immutable"
+      },
+      "continue": true
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "(?<url>/)",
+      "dest": "/index-isr?url=$url"
+    },
+    {
+      "src": "(?<url>/__nuxt_error)",
+      "dest": "/__fallback"
+    },
+    {
+      "src": "(?<url>/about)",
+      "dest": "/about-isr?url=$url"
+    },
+    {
+      "src": "(?<url>/contact)",
+      "dest": "/contact-isr?url=$url"
+    },
+    {
+      "src": "(?<url>/gallery)",
+      "dest": "/gallery-isr?url=$url"
+    },
+    {
+      "src": "(?<url>/pricing)",
+      "dest": "/pricing-isr?url=$url"
+    },
+    {
+      "src": "(?<url>/locations/(?:.*))",
+      "dest": "/locations/[...]-isr?url=$url"
+    },
+    {
+      "src": "(?<url>/services/(?:.*))",
+      "dest": "/services/[...]-isr?url=$url"
+    },
+    {
+      "src": "(?<url>/__nuxt_content/(?:.*))",
+      "dest": "/__fallback"
+    },
+    {
+      "src": "/sw.js",
+      "dest": "/sw.js"
+    },
+    {
+      "src": "/pricing",
+      "dest": "/pricing"
+    },
+    {
+      "src": "/locations",
+      "dest": "/locations"
+    },
+    {
+      "src": "/gallery",
+      "dest": "/gallery"
+    },
+    {
+      "src": "/contact",
+      "dest": "/contact"
+    },
+    {
+      "src": "/api/component-meta.json",
+      "dest": "/api/component-meta.json"
+    },
+    {
+      "src": "/api/component-meta",
+      "dest": "/api/component-meta"
+    },
+    {
+      "src": "/about",
+      "dest": "/about"
+    },
+    {
+      "src": "/_studio",
+      "dest": "/_studio"
+    },
+    {
+      "src": "/__nuxt_studio/meta",
+      "dest": "/__nuxt_studio/meta"
+    },
+    {
+      "src": "/__nuxt_studio/auth/session",
+      "dest": "/__nuxt_studio/auth/session"
+    },
+    {
+      "src": "/__nuxt_studio/auth/google",
+      "dest": "/__nuxt_studio/auth/google"
+    },
+    {
+      "src": "/__nuxt_studio/auth/gitlab",
+      "dest": "/__nuxt_studio/auth/gitlab"
+    },
+    {
+      "src": "/__nuxt_studio/auth/github",
+      "dest": "/__nuxt_studio/auth/github"
+    },
+    {
+      "src": "/__nuxt_error",
+      "dest": "/__nuxt_error"
+    },
+    {
+      "src": "/__nuxt_content/testimonials/sql_dump.txt",
+      "dest": "/__nuxt_content/testimonials/sql_dump.txt"
+    },
+    {
+      "src": "/__nuxt_content/testimonials/query",
+      "dest": "/__nuxt_content/testimonials/query"
+    },
+    {
+      "src": "/__nuxt_content/team/sql_dump.txt",
+      "dest": "/__nuxt_content/team/sql_dump.txt"
+    },
+    {
+      "src": "/__nuxt_content/team/query",
+      "dest": "/__nuxt_content/team/query"
+    },
+    {
+      "src": "/__nuxt_content/services/sql_dump.txt",
+      "dest": "/__nuxt_content/services/sql_dump.txt"
+    },
+    {
+      "src": "/__nuxt_content/services/query",
+      "dest": "/__nuxt_content/services/query"
+    },
+    {
+      "src": "/__nuxt_content/partners/sql_dump.txt",
+      "dest": "/__nuxt_content/partners/sql_dump.txt"
+    },
+    {
+      "src": "/__nuxt_content/partners/query",
+      "dest": "/__nuxt_content/partners/query"
+    },
+    {
+      "src": "/__nuxt_content/membership/sql_dump.txt",
+      "dest": "/__nuxt_content/membership/sql_dump.txt"
+    },
+    {
+      "src": "/__nuxt_content/membership/query",
+      "dest": "/__nuxt_content/membership/query"
+    },
+    {
+      "src": "/__nuxt_content/locations/sql_dump.txt",
+      "dest": "/__nuxt_content/locations/sql_dump.txt"
+    },
+    {
+      "src": "/__nuxt_content/locations/query",
+      "dest": "/__nuxt_content/locations/query"
+    },
+    {
+      "src": "/__nuxt_content/info/sql_dump.txt",
+      "dest": "/__nuxt_content/info/sql_dump.txt"
+    },
+    {
+      "src": "/__nuxt_content/info/query",
+      "dest": "/__nuxt_content/info/query"
+    },
+    {
+      "src": "/__nuxt_content/home_about/sql_dump.txt",
+      "dest": "/__nuxt_content/home_about/sql_dump.txt"
+    },
+    {
+      "src": "/__nuxt_content/home_about/query",
+      "dest": "/__nuxt_content/home_about/query"
+    },
+    {
+      "src": "/__nuxt_content/hero/sql_dump.txt",
+      "dest": "/__nuxt_content/hero/sql_dump.txt"
+    },
+    {
+      "src": "/__nuxt_content/hero/query",
+      "dest": "/__nuxt_content/hero/query"
+    },
+    {
+      "src": "/__nuxt_content/gallery/sql_dump.txt",
+      "dest": "/__nuxt_content/gallery/sql_dump.txt"
+    },
+    {
+      "src": "/__nuxt_content/gallery/query",
+      "dest": "/__nuxt_content/gallery/query"
+    },
+    {
+      "src": "/__nuxt_content/cta/sql_dump.txt",
+      "dest": "/__nuxt_content/cta/sql_dump.txt"
+    },
+    {
+      "src": "/__nuxt_content/cta/query",
+      "dest": "/__nuxt_content/cta/query"
+    },
+    {
+      "src": "/__nuxt_content/contact/sql_dump.txt",
+      "dest": "/__nuxt_content/contact/sql_dump.txt"
+    },
+    {
+      "src": "/__nuxt_content/contact/query",
+      "dest": "/__nuxt_content/contact/query"
+    },
+    {
+      "src": "/__nuxt_content/about/sql_dump.txt",
+      "dest": "/__nuxt_content/about/sql_dump.txt"
+    },
+    {
+      "src": "/__nuxt_content/about/query",
+      "dest": "/__nuxt_content/about/query"
+    },
+    {
+      "src": "/",
+      "dest": "/index"
+    },
+    {
+      "src": "/services/(?<slug>[^/]+)",
+      "dest": "/services/[slug]"
+    },
+    {
+      "src": "/locations/(?<slug>[^/]+)",
+      "dest": "/locations/[slug]"
+    },
+    {
+      "src": "/api/component-meta/(?<component>[^/]+)?",
+      "dest": "/api/component-meta/[component-]"
+    },
+    {
+      "src": "/api/_nuxt_icon/(?<collection>[^/]+)",
+      "dest": "/api/_nuxt_icon/[collection]"
+    },
+    {
+      "src": "/api/strapi/(?:.*)",
+      "dest": "/api/strapi/[...]"
+    },
+    {
+      "src": "/_ipx/(?:.*)",
+      "dest": "/_ipx/[...]"
+    },
+    {
+      "src": "/__nuxt_island/(?:.*)",
+      "dest": "/__nuxt_island/[...]"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/__fallback"
+    }
+  ]
+}

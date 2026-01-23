@@ -1,0 +1,48 @@
+{
+  "testimonials": [
+    {
+      "id": 5,
+      "documentId": "a5au6qaf3psu4bha6dhc079o",
+      "name": "Jahid Akbar",
+      "role": "Swipebit LLC.",
+      "quote": "Business needs many aspects to develop. Not only about human resources but also the atmosphere of the office. They make it easy for that.",
+      "createdAt": "2025-12-19T15:48:57.560Z",
+      "updatedAt": "2025-12-19T15:48:57.560Z",
+      "publishedAt": "2025-12-19T15:51:00.726Z",
+      "image": null
+    },
+    {
+      "id": 7,
+      "documentId": "e3z588xu29gp1xs14w2t97ed",
+      "name": "Sarah Williams",
+      "role": "Design Studio",
+      "quote": "Beautifully designed spaces that inspire creativity. I love coming to work every day. The networking opportunities have been invaluable for my business.",
+      "createdAt": "2025-12-19T15:48:57.592Z",
+      "updatedAt": "2025-12-19T15:48:57.592Z",
+      "publishedAt": "2025-12-19T15:51:00.727Z",
+      "image": null
+    },
+    {
+      "id": 6,
+      "documentId": "p2iyvfsg42kscxpxkhzy0q54",
+      "name": "Michael Chen",
+      "role": "TechFlow Inc.",
+      "quote": "The collaborative environment here has significantly boosted our team productivity. The amenities are top-notch and the community is incredibly supportive.",
+      "createdAt": "2025-12-19T15:48:57.583Z",
+      "updatedAt": "2025-12-19T15:48:57.583Z",
+      "publishedAt": "2025-12-19T15:51:00.726Z",
+      "image": null
+    },
+    {
+      "id": 8,
+      "documentId": "pigfwcckrp2d8bcs22zjusd5",
+      "name": "Tasnia Jerin",
+      "role": "Fotografia Int.",
+      "quote": "Having a partner with flexible solutions frees up capital so that we can invest it in areas that help us grow. We work allows us to focus on our mission.",
+      "createdAt": "2025-12-19T15:48:57.571Z",
+      "updatedAt": "2025-12-19T15:48:57.571Z",
+      "publishedAt": "2025-12-19T15:51:00.727Z",
+      "image": null
+    }
+  ]
+}

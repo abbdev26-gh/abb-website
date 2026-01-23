@@ -1,0 +1,10 @@
+{
+  "cta": {
+    "id": 27,
+    "ctaText": "Contact Us",
+    "url": "/contact"
+  },
+  "description": "The journey begins by contacting us through a basic onboarding application to assess your current stage and place you in the program best suited for your growth trajectory.",
+  "heading": "Ready to Join Us?",
+  "__component": "shared.cta-section"
+}

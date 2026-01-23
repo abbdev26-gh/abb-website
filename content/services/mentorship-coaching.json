@@ -1,0 +1,45 @@
+{
+  "id": 23,
+  "documentId": "p7fdqf5wpxkazfjmnhr7httv",
+  "name": "Mentorship & Coaching",
+  "shortDescription": "Expert pairing and guidance for business success.",
+  "longDescription": "We provide expert pairing and personalized guidance services to ensure your professional growth and business success through tailored mentorship programs.",
+  "stat": "1-on-1 Guidance",
+  "slug": "mentorship-coaching",
+  "serviceId": null,
+  "pageContent": null,
+  "features": null,
+  "createdAt": "2025-12-19T11:05:15.944Z",
+  "updatedAt": "2025-12-28T19:45:12.613Z",
+  "publishedAt": "2025-12-28T19:45:13.134Z",
+  "externalLink": null,
+  "linkText": null,
+  "workspaceSolutions": [],
+  "programComparisons": [],
+  "virtualPresence": [],
+  "serviceImage": [
+    {
+      "url": "/images/abb/mentor-image.jpg",
+      "alternativeText": "Mentorship Coaching"
+    }
+  ],
+  "featuresList": [
+    {
+      "id": 50,
+      "title": "Executive Coaching",
+      "description": "For personalized, one-on-one guidance on advanced strategy and leadership development."
+    },
+    {
+      "id": 51,
+      "title": "Executive Shadowing & Board Immersion",
+      "description": "For top founders to learn high-level governance and organizational structure firsthand."
+    },
+    {
+      "id": 52,
+      "title": "Peer-to-Peer Learning",
+      "description": "Through structured group coaching and collaborative problem-solving."
+    }
+  ],
+  "virtualOffices": [],
+  "masterclasses": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": 28,
+  "documentId": "qawtkx4vgy6drxdfqge2gryi",
+  "name": "Business Advisory",
+  "shortDescription": "Digital marketing, public speaking, legal, and more.",
+  "longDescription": "We provide formalized business advisory services, powered by a core consulting team and a flexible, curated Expert Advisory Pool. We bridge the gap between global strategy and local execution. ",
+  "stat": "Expert Advice",
+  "slug": "business-advisory",
+  "serviceId": null,
+  "pageContent": null,
+  "features": null,
+  "createdAt": "2025-12-19T11:05:15.926Z",
+  "updatedAt": "2025-12-29T08:19:48.353Z",
+  "publishedAt": "2025-12-29T08:19:48.838Z",
+  "externalLink": null,
+  "linkText": null,
+  "workspaceSolutions": [],
+  "programComparisons": [],
+  "virtualPresence": [],
+  "serviceImage": [
+    {
+      "url": "/images/abb/business-image.jpg",
+      "alternativeText": "Business Advisory"
+    }
+  ],
+  "featuresList": [
+    {
+      "id": 66,
+      "title": "Strategy & Growth Planning",
+      "description": "(market entry, expansion, operational restructuring)."
+    },
+    {
+      "id": 67,
+      "title": "Financial Structuring",
+      "description": "(optimal legal and financial setup, capital allocation)."
+    },
+    {
+      "id": 68,
+      "title": "Funding Facilitation",
+      "description": "(preparing pitch decks, structuring deals, and connecting to grants, loans, and angel investors)."
+    }
+  ],
+  "virtualOffices": [],
+  "masterclasses": []
+}

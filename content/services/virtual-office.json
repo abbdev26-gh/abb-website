@@ -1,0 +1,50 @@
+{
+  "id": 31,
+  "documentId": "ywgy5071elw1usde1xuobsi9",
+  "name": "Virtual Office",
+  "shortDescription": "Primary or auxiliary business address locations.",
+  "longDescription": "The Virtual Address System allows businesses to leverage our prime location without needing a physical office space, instantly boosting credibility. ",
+  "stat": "Prime Location",
+  "slug": "virtual-office",
+  "serviceId": null,
+  "pageContent": null,
+  "features": null,
+  "createdAt": "2025-12-19T11:05:15.859Z",
+  "updatedAt": "2025-12-29T15:53:16.494Z",
+  "publishedAt": "2025-12-29T15:53:17.000Z",
+  "externalLink": "https://workspace.africabusinessbureau.com",
+  "linkText": "Learn More",
+  "workspaceSolutions": [],
+  "programComparisons": [],
+  "virtualPresence": [],
+  "serviceImage": [
+    {
+      "url": "/images/abb/virtual-image.jpg",
+      "alternativeText": "Virtual Office"
+    }
+  ],
+  "featuresList": [],
+  "virtualOffices": [
+    {
+      "id": 21,
+      "feature": "Airport City Hub",
+      "benefit": "Formal registration and official correspondence."
+    },
+    {
+      "id": 22,
+      "feature": "Official Registration Address",
+      "benefit": "Eliminates the credibility gap for new businesses and offshore entities."
+    },
+    {
+      "id": 23,
+      "feature": "Full Mail Handling",
+      "benefit": "Secure reception and management of all physical mail and correspondence."
+    },
+    {
+      "id": 24,
+      "feature": "Notification & Forwarding",
+      "benefit": "Prompt client notification of new mail, with secure forwarding services."
+    }
+  ],
+  "masterclasses": []
+}

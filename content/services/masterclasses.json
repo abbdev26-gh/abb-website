@@ -1,0 +1,56 @@
+{
+  "id": 27,
+  "documentId": "amh4yke09t1upb1d1lxoo8nv",
+  "name": "Masterclasses",
+  "shortDescription": "Refreshing insights from industry experts.",
+  "longDescription": "We provide refreshing insights from experts and captains of industries through innovative, effective, and customized training experiences. Our offerings are strategically segmented for different audiences. ",
+  "stat": "Monthly Events",
+  "slug": "masterclasses",
+  "serviceId": null,
+  "pageContent": null,
+  "features": null,
+  "createdAt": "2025-12-19T11:05:15.900Z",
+  "updatedAt": "2025-12-29T08:19:11.587Z",
+  "publishedAt": "2025-12-29T08:19:12.066Z",
+  "externalLink": null,
+  "linkText": null,
+  "workspaceSolutions": [],
+  "programComparisons": [],
+  "virtualPresence": [],
+  "serviceImage": [
+    {
+      "url": "/images/abb/masterclass-image.jpg",
+      "alternativeText": "Masterclasses"
+    }
+  ],
+  "featuresList": [
+    {
+      "id": 63,
+      "title": "Customized Curriculum",
+      "description": "Focusing on core topics like Financial Management and Pitching Skills."
+    },
+    {
+      "id": 64,
+      "title": "Executive Speaker Series & Clinics",
+      "description": "Delivered by C-suite executives (eg. Deloitte partners) on complex topics like M&A and Advanced Tax Strategy."
+    },
+    {
+      "id": 65,
+      "title": "Shark Tank Simulation",
+      "description": "For high stakes pitching and candid feedback."
+    }
+  ],
+  "virtualOffices": [],
+  "masterclasses": [
+    {
+      "id": 7,
+      "audience": "Students (Startups/Entrepreneur)",
+      "focus": "Core business fundamentals (Financial Management, Pitching Skills)."
+    },
+    {
+      "id": 8,
+      "audience": "Corporate (Working Professionals)",
+      "focus": "Advanced and specialized topics (M&A, Advanced Tax Strategy, Strategy & Growth Planning)."
+    }
+  ]
+}

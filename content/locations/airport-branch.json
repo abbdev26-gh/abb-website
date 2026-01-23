@@ -1,0 +1,16 @@
+{
+  "id": 4,
+  "documentId": "q6xjkullssz79ybpxcwclz6t",
+  "name": "Airport City Branch",
+  "city": "Airport City",
+  "address": "Osu Badu CR 9 Airport West. GPS: GA-155-4078",
+  "fullAddress": "Osu Badu CR 9 Airport West.\nGPS: GA-155-4078",
+  "email": "info@africabusinessbureau.com",
+  "phone": "03033983218 (Airport)",
+  "hours": "Mon - Friday: 8:00am - 5PM",
+  "slug": "airport-branch",
+  "mapUrl": null,
+  "createdAt": "2025-12-19T11:05:16.006Z",
+  "updatedAt": "2025-12-19T15:12:06.290Z",
+  "publishedAt": "2025-12-19T15:12:06.319Z"
+}

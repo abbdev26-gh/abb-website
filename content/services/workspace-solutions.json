@@ -1,0 +1,94 @@
+{
+  "id": 33,
+  "documentId": "sznmhx60ml71rhke90dxe2g7",
+  "name": "Workspace Solutions",
+  "shortDescription": "Executive work spaces at cost-effective prices.",
+  "longDescription": "ABB Workspaces provides premium, flexible workspace at cost-effective prices. Our services are strategically designed for Business Executives/Traveling Professionals, Entrepreneurs/Startups, and Offshore Entities. We offer unrestricted access to reliable infrastructure (uninterrupted power, high-speed internet) across our Tema and Airport City hubs. ",
+  "stat": "Cost Effective",
+  "slug": "workspace-solutions",
+  "serviceId": null,
+  "pageContent": null,
+  "features": null,
+  "createdAt": "2025-12-19T11:05:15.767Z",
+  "updatedAt": "2026-01-08T18:07:15.569Z",
+  "publishedAt": "2026-01-08T18:07:16.434Z",
+  "externalLink": "https://workspace.africabusinessbureau.com",
+  "linkText": "View our Workspaces",
+  "workspaceSolutions": [
+    {
+      "id": 22,
+      "category": "Premium Offices",
+      "description": "Fully furnished, private, and secure dedicated office suites.",
+      "useCase": "Established companies or executives requiring the highest level of privacy and dedicated infrastructure."
+    },
+    {
+      "id": 23,
+      "category": "Co-working Space",
+      "description": "Flexible, open-plan shared workspaces available on a membership or day rate basis.",
+      "useCase": "Freelancers, small teams, or budget-conscious professionals needing a daily professional setting."
+    },
+    {
+      "id": 24,
+      "category": "Working Groups",
+      "description": "Bookable spaces tailored for larger structured business activities.",
+      "useCase": "Conferences, Training Rooms, and larger Team Meeting Spaces."
+    }
+  ],
+  "programComparisons": [],
+  "virtualPresence": [
+    {
+      "id": 3,
+      "title": "Virtual Presence Solutions",
+      "description": "The Virtual Address System allows businesses to leverage our prime location without needing a physical office space, instantly boosting credibility.",
+      "benefitsTitle": "Why Choose ABB Workspaces?",
+      "features": [
+        {
+          "id": 99,
+          "title": "Primary/Auxiliary Address",
+          "description": "We provide a primary or auxiliary professional address at our recognized Airport City hub for formal registration and official correspondence."
+        },
+        {
+          "id": 100,
+          "title": "Official Registration Address",
+          "description": "Eliminates the credibility gap for new businesses and offshore entities by providing a reputable location for business licensing and registration."
+        },
+        {
+          "id": 101,
+          "title": "Full Mail Handling",
+          "description": "Secure reception and management of all physical mail and correspondence."
+        },
+        {
+          "id": 102,
+          "title": "Notification & Forwarding",
+          "description": "Prompt client notification of new mail, with secure forwarding services to a designated physical or digital location."
+        }
+      ],
+      "benefits": [
+        {
+          "id": 103,
+          "title": "Enhanced Credibility",
+          "description": "Instantly gain a professional reputation with a recognized Airport City address, eliminating the credibility gap."
+        },
+        {
+          "id": 104,
+          "title": "Unmatched Flexibility",
+          "description": "Benefit from cost-effective, flexible terms and unrestricted access to both the Tema and Airport City hubs."
+        },
+        {
+          "id": 105,
+          "title": "Guaranteed Operational Reliability",
+          "description": "Maintain uninterrupted productivity with a robust infrastructure, including guaranteed power backup and high-speed internet."
+        }
+      ]
+    }
+  ],
+  "serviceImage": [
+    {
+      "url": "/images/abb/workspace-image.avif",
+      "alternativeText": "Workspace Solutions"
+    }
+  ],
+  "featuresList": [],
+  "virtualOffices": [],
+  "masterclasses": []
+}

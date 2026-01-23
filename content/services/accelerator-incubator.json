@@ -1,0 +1,44 @@
+{
+  "id": 29,
+  "documentId": "t5ypn13fcld1gdd7vldxhyl2",
+  "name": "Accelerator-Incubator",
+  "shortDescription": "A blended model positioning you for growth.",
+  "longDescription": "ABB is the premier governance training ground and a hub for serious, growth-oriented founders. Our model is a hybrid, delivering end-to-end support from the initial idea stage to advanced scale. ",
+  "stat": "Growth Focused",
+  "slug": "accelerator-incubator",
+  "serviceId": null,
+  "pageContent": null,
+  "features": null,
+  "createdAt": "2025-12-19T11:05:15.978Z",
+  "updatedAt": "2025-12-29T09:28:15.994Z",
+  "publishedAt": "2025-12-29T09:28:16.527Z",
+  "externalLink": null,
+  "linkText": null,
+  "workspaceSolutions": [],
+  "programComparisons": [
+    {
+      "id": 3,
+      "programName": "The ABB Incubator",
+      "targetAudience": "Early-Stage Founders\n(Validated idea or business in its first 1-2 years)",
+      "serviceFocus": "Foundation building and market entry",
+      "keySupportProvided": "Virtual Address, essential Core Masterclass training (governance, legal), and basic operational mentorship."
+    },
+    {
+      "id": 4,
+      "programName": "The ABB Accelerator",
+      "targetAudience": "Scaling CEOs\n(Established businesses with proven traction and existing team)",
+      "serviceFocus": "Rapid, strategic scaling and market expansion.",
+      "keySupportProvided": "Advanced Strategy Workshops, personalized Executive Coaching, specialized Business Advisory, and high-level governance refinement."
+    }
+  ],
+  "virtualPresence": [],
+  "serviceImage": [
+    {
+      "url": "/images/abb/incubator-image.jpg",
+      "alternativeText": "Accelerator Incubator"
+    }
+  ],
+  "featuresList": [],
+  "virtualOffices": [],
+  "masterclasses": []
+}

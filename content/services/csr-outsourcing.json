@@ -1,0 +1,45 @@
+{
+  "id": 20,
+  "documentId": "p23kx1zbrcsbjw5shdq5qr9f",
+  "name": "CSR Outsourcing",
+  "shortDescription": "360-degree solutions for your CSR initiatives.",
+  "longDescription": "Let us handle your Corporate Social Responsibility initiatives. We provide complete, 360-degree solutions to manage and execute your CSR impact effectively.",
+  "stat": "360° Solutions",
+  "slug": "csr-outsourcing",
+  "serviceId": null,
+  "pageContent": null,
+  "features": null,
+  "createdAt": "2025-12-19T11:05:15.965Z",
+  "updatedAt": "2025-12-28T13:26:58.377Z",
+  "publishedAt": "2025-12-28T13:26:58.879Z",
+  "externalLink": null,
+  "linkText": null,
+  "workspaceSolutions": [],
+  "programComparisons": [],
+  "virtualPresence": [],
+  "serviceImage": [
+    {
+      "url": "/images/abb/csr-image.jpg",
+      "alternativeText": "CSR Outsourcing"
+    }
+  ],
+  "featuresList": [
+    {
+      "id": 46,
+      "title": "Impact Program Design & Execution",
+      "description": "We design, implement, and manage customized CSR programs focused on entrepreneurship, skill development, and community resilience that seamlessly align with your company's ESG goals (Environmental, Social, and Governance)."
+    },
+    {
+      "id": 47,
+      "title": "Youth & Women Empowerment Focus",
+      "description": "We facilitate the direct channeling of CSR funds into ABB's pre-vetted portfolio of youth and women-led businesses, providing immediate, measurable impact in alignment with your public image."
+    },
+    {
+      "id": 48,
+      "title": "Impact Reporting & Accountability",
+      "description": "We provide audited, detailed reports and media documentation to ensure full accountability. This allows your company to report on quantifiable social outcomes without managing the operational complexity"
+    }
+  ],
+  "virtualOffices": [],
+  "masterclasses": []
+}

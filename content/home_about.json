@@ -1,0 +1,72 @@
+{
+  "id": 6,
+  "documentId": "t0zywuxkob7onqljxxwrz43o",
+  "preHeader": "Co-Work Spaces and more..",
+  "preDescription": "We are an innovation, incubation, and business advisory hub dedicated to transforming Youth and women-led SMEs into high-growth, sustainable enterprises. ",
+  "title": "[Who] we are",
+  "body": "Africa Business Bureau (ABB) provides businesses with training, talent management and business support services to incubate their business ideas and accelerate growth.\n\nWe also embark on developmental projects geared towards the SDGs; human capital development, job creation and economic growth.",
+  "stats": [
+    {
+      "id": 1,
+      "icon": "PhStudent",
+      "label": "People Trained",
+      "value": "800+"
+    },
+    {
+      "id": 2,
+      "icon": "PhBuildings",
+      "label": "Businesses Supported",
+      "value": "62+"
+    },
+    {
+      "id": 3,
+      "icon": "PhRocket",
+      "label": "Startups Incubated",
+      "value": "25+"
+    },
+    {
+      "id": 4,
+      "icon": "PhBriefcase",
+      "label": "Jobs Created",
+      "value": "95+"
+    }
+  ],
+  "createdAt": "2025-12-07T07:46:25.059Z",
+  "updatedAt": "2025-12-29T07:05:54.005Z",
+  "publishedAt": "2025-12-29T07:05:54.483Z",
+  "sectionImage": {
+    "url": "/images/abb-about.jpg",
+    "alternativeText": "Co-Work Spaces and more"
+  },
+  "sectionCTA": {
+    "id": 20,
+    "ctaText": "Learn More",
+    "url": "/about"
+  },
+  "storyTimeline": [
+    {
+      "id": 45,
+      "year": "2020",
+      "title": "The Spark",
+      "description": "Africa Business Bureau (ABB) was founded with a clear vision: to create a robust support system for youth and women-led SMEs in Ghana. We identified a gap in mid-level business advisory and set out to bridge it with dedicated mentorship and resources."
+    },
+    {
+      "id": 46,
+      "year": "2022",
+      "title": "Establishing the Hub",
+      "description": "We successfully launched our physical innovation hub, providing a collaborative workspace and high-speed infrastructure for local entrepreneurs. This period saw our first batch of incubated startups begin to scale and create local jobs."
+    },
+    {
+      "id": 47,
+      "year": "2024",
+      "title": "Strategic Partnerships",
+      "description": "Growth accelerated through key partnerships with the World Bank, NEIP, and ING Leaders Foundation. These collaborations allowed us to expand our training programs and reach over 800+ individuals through specialized masterclasses."
+    },
+    {
+      "id": 48,
+      "year": "2025",
+      "title": "Looking Ahead",
+      "description": "Today, ABB stands as a leading 360° launchpad for growth. We continue to innovate our service offerings, including virtual office support and talent management, ensuring that every entrepreneur has the tools to succeed in the African market."
+    }
+  ]
+}

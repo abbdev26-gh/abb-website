@@ -1,0 +1,74 @@
+{
+  "teamMember": [
+    {
+      "name": "Kwadwo Amoako Attah",
+      "role": "CEO",
+      "image": {
+        "url": "https://tidy-friend-384c97c42d.media.strapiapp.com/b308e2a5ffff_tif_089d711d28.jpg"
+      },
+      "linkedin": null,
+      "twitter": null,
+      "email": null
+    },
+    {
+      "name": "Natasha Sena A. Abraham",
+      "role": "General Manager",
+      "image": {
+        "url": "https://tidy-friend-384c97c42d.media.strapiapp.com/NATASHA_56e2cd05d0.jpg"
+      },
+      "linkedin": null,
+      "twitter": null,
+      "email": null
+    },
+    {
+      "name": "Esther T. Nanor",
+      "role": "HR",
+      "image": {
+        "url": "https://tidy-friend-384c97c42d.media.strapiapp.com/PHOTO_2026_01_09_11_03_40_be838097ff.jpg"
+      },
+      "linkedin": null,
+      "twitter": null,
+      "email": null
+    },
+    {
+      "name": "Maxwell Itsiah-Yawson",
+      "role": "Finance",
+      "image": {
+        "url": "https://tidy-friend-384c97c42d.media.strapiapp.com/DSC_1881_139_de68c01078.jpg"
+      },
+      "linkedin": null,
+      "twitter": null,
+      "email": null
+    },
+    {
+      "name": "Dzifa Dzata",
+      "role": "Hub Cordinator (Airport)",
+      "image": {
+        "url": "https://tidy-friend-384c97c42d.media.strapiapp.com/DZIFA_DZATA_AIRPORT_8f1d7f73ca.jpg"
+      },
+      "linkedin": null,
+      "twitter": null,
+      "email": null
+    },
+    {
+      "name": "Debora Dzifa Amezah",
+      "role": "Hub Cordinator (Tema)",
+      "image": {
+        "url": "https://tidy-friend-384c97c42d.media.strapiapp.com/IMG_1639_7e70e10ce7.JPG"
+      },
+      "linkedin": null,
+      "twitter": null,
+      "email": null
+    },
+    {
+      "name": "Enoch Ofosu – Mensah",
+      "role": "Growth Consultant",
+      "image": {
+        "url": "https://tidy-friend-384c97c42d.media.strapiapp.com/Mr_Ofosu_Mensah_a159b05b5c.jpg"
+      },
+      "linkedin": null,
+      "twitter": null,
+      "email": null
+    }
+  ]
+}

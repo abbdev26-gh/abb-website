@@ -1,0 +1,57 @@
+{
+  "id": 5,
+  "documentId": "bgtnulh74xfc2hkd0mw1w5lc",
+  "title": "Our Services Offer You The Following Benefits",
+  "description": null,
+  "createdAt": "2025-12-24T09:52:26.325Z",
+  "updatedAt": "2025-12-29T15:51:10.930Z",
+  "publishedAt": "2025-12-29T15:51:11.408Z",
+  "listItems": [
+    {
+      "id": 76,
+      "title": "Access to ABB facilities",
+      "description": "Enjoy flexible access to fully-equipped offices and co-working spaces across our Tema and Airport City hubs, with guaranteed power backup and high-speed internet for uninterrupted productivity."
+    },
+    {
+      "id": 77,
+      "title": "Professional Business Address",
+      "description": "Establish instant credibility with a prestigious Airport City address for official registration, complete with secure mail handling and forwarding services—perfect for startups and offshore entities."
+    },
+    {
+      "id": 78,
+      "title": "Expert-Led Masterclass Training",
+      "description": "Access specialized training sessions from industry captains and C-suite executives, covering everything from financial management and pitching skills to advanced M&A and tax strategy."
+    },
+    {
+      "id": 79,
+      "title": " Strategic Business Advisory",
+      "description": "Tap into our curated Expert Advisory Pool for high-level strategic, financial, and regulatory guidance that combines global best practices with deep African market knowledge."
+    },
+    {
+      "id": 80,
+      "title": "Mentorship from Top Experts",
+      "description": "Receive personalized guidance from seasoned executives matched to your specific business needs, with structured support in areas like marketing strategy, finance, and governance."
+    },
+    {
+      "id": 81,
+      "title": "Accelerator & Incubator Support",
+      "description": "Fast-track your business growth with end-to-end support—from foundational governance training for early-stage founders to advanced scaling strategies for established CEOs."
+    },
+    {
+      "id": 82,
+      "title": "Impactful Community projects ",
+      "description": "Channel your corporate social investment through our Impact Centre for fully managed, measurable programs that create real community impact while meeting your ESG goals."
+    }
+  ],
+  "cta": {
+    "id": 25,
+    "ctaText": "Contact Us",
+    "url": "https://tidy-friend-384c97c42d.strapiapp.com/contact"
+  },
+  "sectionImage": [
+    {
+      "url": "/images/abb/benefits-image.avif",
+      "alternativeText": "Membership Benefits"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "__component": "shared.contact-section",
+  "id": 2,
+  "title": " We’d love to hear from you ",
+  "description": " Our friendly team is always here to chat. ",
+  "contactOptions": [
+    {
+      "id": 5,
+      "title": "Chat to sales",
+      "slug": "chat",
+      "description": "Speak to our friendly team.",
+      "contactDetail": " info@africabusinessbureau.com",
+      "link": "mailTo:info@africabusinessbureau.com"
+    },
+    {
+      "id": 6,
+      "title": "Chat to support",
+      "slug": "chat",
+      "description": "We’re here to help.",
+      "contactDetail": "abbanchorincubatorproject@gmail.com <br> 0257003554 (Whatsapp only)",
+      "link": "mailTo:abbanchorincubatorproject@gmail.com "
+    },
+    {
+      "id": 7,
+      "title": "Visit us",
+      "slug": "location",
+      "description": "Visit our office HQ.",
+      "contactDetail": "Paa Grant St. Community 10, Tema. GPS: GT-123-9133 (Tema) <br>  Osu Badu CR 9 Airport West . GPS -GA-155-4078(Airport) ",
+      "link": null
+    },
+    {
+      "id": 8,
+      "title": "Call us",
+      "slug": "call",
+      "description": null,
+      "contactDetail": " 03033983218 (Airport) <br> 03033983217 (Tema) ",
+      "link": null
+    }
+  ]
+}
