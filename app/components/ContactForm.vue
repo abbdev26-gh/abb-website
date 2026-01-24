@@ -11,11 +11,32 @@ const form = reactive({
   message: ''
 });
 
+// We need a separate ref for the vue-tel-input v-model which might be an object or string depending on version, 
+// but we want to capture the formatted number.
+const rawPhone = ref('');
+const formattedPhone = ref('');
+const isPhoneValid = ref(false);
+
 const isSubmitting = ref(false);
 const showSuccess = ref(false);
 const showError = ref(false);
 
+const onPhoneValidate = (phoneObject: any) => {
+  if (phoneObject?.valid) {
+    isPhoneValid.value = true;
+    formattedPhone.value = phoneObject.number; // E.164
+  } else {
+    isPhoneValid.value = false;
+    formattedPhone.value = '';
+  }
+};
+
 const submitForm = async () => {
+  if (!isPhoneValid.value && rawPhone.value) {
+    alert("Please enter a valid phone number.");
+    return;
+  }
+
   isSubmitting.value = true;
   showSuccess.value = false;
   showError.value = false;
@@ -23,7 +44,10 @@ const submitForm = async () => {
   try {
     await $fetch('/api/contact', {
       method: 'POST',
-      body: form
+      body: {
+        ...form,
+        phone: formattedPhone.value || form.phone // Use formatted if available
+      }
     });
 
     showSuccess.value = true;
@@ -32,6 +56,8 @@ const submitForm = async () => {
     form.lastName = '';
     form.email = '';
     form.phone = '';
+    rawPhone.value = '';
+    formattedPhone.value = '';
     form.message = '';
 
   } catch (error) {
@@ -81,7 +107,20 @@ const submitForm = async () => {
 
           <div class="space-y-2">
             <label for="phone" class="text-sm font-medium text-gray-700">Phone number</label>
-            <input v-model="form.phone" type="tel" id="phone" placeholder="+233 (55) 000-0000" class="w-full rounded-lg border border-gray-300 px-4 py-3 text-sm focus:border-[#E60000] focus:ring-[#E60000] focus:outline-none" />
+             <client-only>
+              <vue-tel-input
+                v-model="rawPhone"
+                mode="international"
+                :preferred-countries="['GH']"
+                :valid-characters-only="true"
+                @validate="onPhoneValidate"
+                class="!w-full !rounded-lg !border !border-gray-300 !text-sm focus-within:!border-[#E60000] focus-within:!ring-[#E60000] focus-within:!outline-none"
+                :inputOptions="{
+                  placeholder: 'Enter your phone number',
+                  styleClasses: '!w-full !border-none !outline-none !shadow-none !bg-transparent !h-[46px] !px-4 !py-3'
+                }"
+              ></vue-tel-input>
+            </client-only>
           </div>
 
           <div class="space-y-2">
@@ -98,3 +137,22 @@ const submitForm = async () => {
     </div>
   </section>
 </template>
+
+<style>
+/* Overrides for vue-tel-input default styles to match theme */
+.vue-tel-input {
+  border: 1px solid #d1d5db !important;
+  border-radius: 0.5rem !important;
+}
+.vue-tel-input:focus-within {
+  border-color: #E60000 !important;
+  box-shadow: 0 0 0 1px #E60000 !important;
+}
+.vti__dropdown {
+  border-right: 1px solid #d1d5db !important;
+}
+.vti__input {
+  border: none !important;
+  border-radius: 0 0.5rem 0.5rem 0 !important;
+}
+</style>

@@ -7830,6 +7830,11 @@ vue-router@^4.6.3:
   dependencies:
     "@vue/devtools-api" "^6.6.4"
 
+vue-tel-input@^9.6.0:
+  version "9.6.0"
+  resolved "https://registry.npmjs.org/vue-tel-input/-/vue-tel-input-9.6.0.tgz"
+  integrity sha512-oqa2DGWsO31jWbRYU9ouKNQBkLJQov88P9UXrmW/zvAVOEXknUKT+zgbffqebQYaRdgOYaGsXB1LisIUhH8tiA==
+
 vue@^3.5.23, vue@^3.5.25:
   version "3.5.25"
   resolved "https://registry.npmjs.org/vue/-/vue-3.5.25.tgz"
