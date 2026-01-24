@@ -1,9 +1,18 @@
-import { Resend } from 'resend';
+import { Forminit } from 'forminit';
 import { defineEventHandler, readBody, createError } from 'h3';
 
 export default defineEventHandler(async (event) => {
     const config = useRuntimeConfig();
     const body = await readBody(event);
+
+    // Check for Forminit API key
+    if (!config.forminitApiKey) {
+        console.error('FORMINIT_API_KEY is not configured');
+        throw createError({
+            statusCode: 500,
+            statusMessage: 'Form service is not configured correctly',
+        });
+    }
 
     const { firstName, lastName, email, phone, message } = body;
 
@@ -15,45 +24,52 @@ export default defineEventHandler(async (event) => {
         });
     }
 
-    if (!config.resendApiKey) {
-        console.error('RESEND_API_KEY is not configured');
-        throw createError({
-            statusCode: 500,
-            statusMessage: 'Email service is not configured correctly',
-        });
-    }
+    const forminit = new Forminit({
+        apiKey: config.forminitApiKey,
+    });
 
-    const resend = new Resend(config.resendApiKey);
+    const FORM_ID = 't90924betnm';
 
     try {
-        const { data, error } = await resend.emails.send({
-            from: config.resendFromEmail || 'onboarding@resend.dev',
-            to: config.contactReceiverEmail || 'cnaallotey@gmail.com', // Fallback for debugging if needed
-            subject: `New Contact Form Submission from ${firstName} ${lastName}`,
-            html: `
-        <h2>New Contact Form Submission</h2>
-        <p><strong>Name:</strong> ${firstName} ${lastName}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Phone:</strong> ${phone || 'Not provided'}</p>
-        <p><strong>Message:</strong></p>
-        <p>${message.replace(/\n/g, '<br>')}</p>
-      `,
+        const { data, error } = await forminit.submit(FORM_ID, {
+            blocks: [
+                {
+                    type: 'sender',
+                    properties: {
+                        email,
+                        firstName,
+                        lastName,
+                        phone: phone || undefined,
+                    },
+                },
+                {
+                    type: 'text',
+                    name: 'message',
+                    value: message,
+                },
+            ],
         });
 
         if (error) {
-            console.error('Resend error:', error);
+            console.error('Forminit submission error:', error);
             throw createError({
-                statusCode: 500,
-                statusMessage: `Failed to send email: ${error.message}`,
+                statusCode: 400,
+                statusMessage: error.message || 'Failed to submit form',
             });
         }
 
-        return { success: true, id: data?.id };
+        return { success: true, id: data.hashId };
+
     } catch (err: any) {
         console.error('Submission error:', err);
+        // If it's already an h3 error, rethrow it
+        if (err.statusCode) {
+            throw err;
+        }
+
         throw createError({
             statusCode: 500,
-            statusMessage: err.statusMessage || 'Internal Server Error',
+            statusMessage: err.message || 'Internal Server Error',
         });
     }
 });

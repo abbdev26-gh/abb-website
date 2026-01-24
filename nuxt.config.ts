@@ -49,14 +49,12 @@ export default defineNuxtConfig({
   vite: { plugins: [tailwindcss(),], },
   runtimeConfig: {
     strapiUpstreamUrl: process.env.STRAPI_URL || 'http://localhost:1337',
-    resendApiKey: process.env.RESEND_API_KEY,
-    resendFromEmail: process.env.RESEND_FROM_EMAIL,
-    contactReceiverEmail: process.env.CONTACT_RECEIVER_EMAIL,
     public: {
       strapiUrl: '/api/strapi', // Point to local proxy
       // strapiToken: process.env.STRAPI_TOKEN || '...', // Commented out to test public permissions
       strapiToken: '',
     },
+    forminitApiKey: process.env.FORMINIT_API_KEY,
   },
   nitro: {
     prerender: {
