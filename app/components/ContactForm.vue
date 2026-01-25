@@ -106,7 +106,7 @@ const submitForm = async () => {
           </div>
 
           <div class="space-y-2">
-            <label for="phone" class="text-sm font-medium text-gray-700">Phone number</label>
+            <label for="phone" class="text-sm font-medium text-gray-700">Phone number</label><br>
              <client-only>
               <vue-tel-input
                 v-model="rawPhone"
