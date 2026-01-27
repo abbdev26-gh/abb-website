@@ -1,6 +1,6 @@
 [build]
   command = "yarn build"
-  publish = ".output/public"
+  publish = "dist"
 
 [functions]
   directory = ".output/server"
