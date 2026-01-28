@@ -33,7 +33,7 @@
       </div>
 
       <div class="flex justify-center animate-on-scroll delay-300">
-        <a class="inline-flex justify-center items-center mx-auto mt-10 gap-x-3 text-center bg-linear-to-tl from-red-500 to-red-600 hover:from-red-600 hover:to-red-500 focus:outline-hidden focus:from-red-600 focus:to-red-500 border border-transparent text-white text-base font-bold rounded-full py-3 px-4" href="https://drive.google.com/uc?export=download&id=1eFKE1pOR3-Yb4aaUj7zfGCHp3gcuzQTH" target="_blank">
+        <a class="inline-flex justify-center items-center mx-auto mt-10 gap-x-3 text-center bg-linear-to-tl from-red-500 to-red-600 hover:from-red-600 hover:to-red-500 focus:outline-hidden focus:from-red-600 focus:to-red-500 border border-transparent text-white text-base font-bold rounded-full py-3 px-4" href="https://drive.google.com/uc?export=download&id=143TH5SrHVHq6N12189LD7AHUEoL41GTH" target="_blank">
         <PhDownload class="shrink-0 size-8" />
         Download Our Full brochure
       </a>
