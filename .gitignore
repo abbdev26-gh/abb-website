@@ -6,6 +6,12 @@
 .cache
 dist
 
+# Deployment build artifacts — must NOT be committed. These contain
+# platform-native binaries (better-sqlite3, sharp) built for the local OS;
+# committing them and deploying prebuilt breaks Vercel's Linux runtime.
+.vercel
+.netlify
+
 # Node dependencies
 node_modules
 

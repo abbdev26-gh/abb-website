@@ -1,5 +1,18 @@
+import { readdirSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 import tailwindcss from "@tailwindcss/vite";
 
+// Derive prerender routes for content-backed dynamic pages from the content
+// files on disk (filename === slug). This keeps the list in sync automatically
+// when content is added/removed.
+const contentDir = fileURLToPath(new URL("./content", import.meta.url));
+const routesFromDir = (sub: string, prefix: string) =>
+  readdirSync(`${contentDir}/${sub}`)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => `${prefix}/${f.replace(/\.json$/, "")}`);
+
+const serviceRoutes = routesFromDir("services", "/services");
+const locationRoutes = routesFromDir("locations", "/locations");
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -62,19 +75,27 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      // Pre-render the homepage
-      routes: ['/'],
-      // Disable crawlLinks to prevent OOM on Vercel
-      crawlLinks: false
+      // Fully prerender every content-backed page at build time. This keeps the
+      // SQLite content DB (better-sqlite3) entirely at build time, so the Vercel
+      // serverless function never has to load that native module at runtime —
+      // which is what caused FUNCTION_INVOCATION_FAILED.
+      crawlLinks: false,
+      failOnError: false,
+      routes: [
+        '/',
+        '/about',
+        '/contact',
+        '/gallery',
+        '/pricing',
+        '/locations',
+        ...serviceRoutes,
+        ...locationRoutes,
+      ],
     }
   },
   routeRules: {
-    '/': { isr: 3600 },
-    '/about': { isr: 3600 },
-    '/contact': { isr: 3600 },
-    '/gallery': { isr: 3600 },
-    '/pricing': { isr: 3600 },
-    '/locations/**': { isr: 3600 },
-    '/services/**': { isr: 3600 },
+    // Admin is an interactive, runtime-only editor. Render it client-side so it
+    // never invokes the SSR function (and the content DB) on the server.
+    '/admin/**': { ssr: false },
   }
 })
